@@ -1,0 +1,38 @@
+.link {
+    text-decoration: none;
+    margin-right: 50px;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+
+}
+
+.link:hover {
+    /* font-size: 22px; */
+}
+
+.top {
+    background-color: rgb(20, 158, 250);
+    padding: 10px 0px;
+
+}
+
+.second-section {
+    background-color: rgb(223, 222, 222);
+    padding: 20px 0px;
+}
+
+.third-section {
+    margin-top: 30px;
+
+}
+
+.orange-text {
+    color: rgb(199, 143, 38);
+}
+
+footer {
+    margin-top: 30px;
+    padding: 20px 0px;
+    background-color: aliceblue;
+}
