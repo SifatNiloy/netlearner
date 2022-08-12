@@ -40,10 +40,13 @@ const CardGroupFirst = () => {
     ]
     return (
         <div>
-            <CardGroup className='group-cards'>
-                {
-                    courses.map(course => <Cards key={courses.id} course={course}></Cards>)
-                }
+            <CardGroup >
+                <div className='group-cards'>
+                    {
+                        courses.map(course => <Cards key={courses.id} course={course}></Cards>)
+                    }
+                </div>
+
             </CardGroup>
         </div>
     );

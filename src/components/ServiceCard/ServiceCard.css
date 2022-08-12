@@ -1,9 +1,8 @@
-.group-cards {
+.all-services {
     display: grid;
     grid-gap: 30px 50px;
     margin-top: 30px;
     margin-bottom: 50px;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 20px 250px;
-
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px 50px;
 }
