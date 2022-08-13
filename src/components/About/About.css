@@ -1,0 +1,14 @@
+.top-text {
+    margin: 50px;
+}
+
+.middle-text {
+    background-color: azure;
+    padding: 20px 200px;
+    /* margin-bottom: 50px; */
+}
+
+.last-text {
+    background-color: rgb(221, 255, 255);
+    padding: 30px 150px;
+}

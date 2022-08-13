@@ -1,0 +1,59 @@
+.first-section {
+    background-color: rgb(198, 228, 255);
+    /* margin: 20px 0px; */
+    padding: 30px 0px;
+}
+
+.teaching-reason {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 10px;
+    margin: 0px 0px;
+}
+
+.reasons {
+    padding: 20px;
+}
+
+.reasons img {
+    max-height: 200px;
+    margin-bottom: 20px;
+}
+
+.third-section {
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 40px;
+}
+
+.fourth-section {
+    margin-top: 50px;
+}
+
+.course-making {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px 300px;
+
+
+}
+
+.steps {
+    text-decoration: underline solid rgb(0, 0, 0) 3px;
+}
+
+.help {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.left-side {
+    margin-top: 50px;
+    padding: 100px;
+    font-weight: 500;
+}
+
+.left-side h5 {
+    font-weight: 700;
+}

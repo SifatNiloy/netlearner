@@ -1,0 +1,14 @@
+.footer-points {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+p {
+    margin: 0
+}
+
+footer {
+    color: white;
+    background-color: rgb(48, 48, 48);
+
+}
