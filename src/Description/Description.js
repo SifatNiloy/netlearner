@@ -1,16 +1,27 @@
 import React from 'react';
-import { useEffect } from 'react';
-import { useState } from 'react';
+// import { useEffect } from 'react';
+// import { useState } from 'react';
+import './Description.css'
+
+import { useParams } from 'react-router-dom';
 
 const Description = (props) => {
-    // const [kothabatra, setKothabatra] = useState([]);
+    const { serviceId } = useParams();
+    // const [service, setService] = useState({});
     // useEffect(() => {
-    //     fetch
+    //     fetch(`./netlearner.json`)
+    //         .then(res => res.json())
+    //         .then(data => setService(data))
     // }, [])
+
     return (
-        <div>
-            <h2>This is description</h2>
-            <p>{props.description}</p>
+        <div className='about-course'>
+            <h2>This is description of course id: {serviceId} </h2>
+            <h2>Course Name: </h2>
+            <h2>Total videos: </h2>
+            <h3>Course Duration hours: </h3>
+            <h3>Total test: </h3>
+            <h3>Course Price: </h3>
         </div>
     );
 };

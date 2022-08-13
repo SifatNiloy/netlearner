@@ -2,10 +2,17 @@ import { Button } from 'react-bootstrap';
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import Description from '../../Description/Description';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate, useParams } from 'react-router-dom';
+import './Services.css'
 
 const Services = (props) => {
-    const { name, price, image, description } = props.service;
+    const navigate = useNavigate();
+    const showDetail = () => {
+        const path = `/services/${id}`;
+        navigate(path);
+    }
+
+    const { name, price, image, description, id } = props.service;
     return (
         <Card className='card'>
             <Card.Img variant="top" src={image} />
@@ -13,12 +20,15 @@ const Services = (props) => {
                 <Card.Title>{name}</Card.Title>
                 <p>price: {price} tk</p>
                 <Card.Text>
-                    <Link to={'/description'}>Show Details</Link>
+                    <div className='custom-link'>
+                        <Button onClick={showDetail} variant="primary">Show Detail</Button>
+                        {/* <Link to={'/services/' + id}>Show Details</Link> */}
+                    </div>
                 </Card.Text>
                 {/* <Description description={description}></Description> */}
             </Card.Body>
 
-        </Card>
+        </Card >
     );
 };
 

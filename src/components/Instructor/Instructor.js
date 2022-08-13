@@ -41,8 +41,8 @@ const Instructor = () => {
                     <p>Enrollment</p>
                 </div>
                 <div className="statistics">
-                    <h1>10+</h1>
-                    <p>Countries</p>
+                    <h1>200+</h1>
+                    <p>Courses</p>
                 </div>
                 <div className="statistics">
                     <h1>50+</h1>
