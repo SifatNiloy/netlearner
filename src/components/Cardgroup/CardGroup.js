@@ -24,7 +24,7 @@ const CardGroupFirst = () => {
         id: 3,
         name: "Adobe After Effects",
         image: "https://www.coursesforfree.net/wp-content/uploads/2019/03/927360_bab9_4.jpg",
-        price: 450,
+        price: 1500,
         email: "marcypotts@fossiel.com",
         phone: 18174002431
     },
@@ -32,7 +32,7 @@ const CardGroupFirst = () => {
         id: 4,
         name: "Adobe Audition",
         image: "https://freecoursesites.com/wp-content/uploads/2019/12/Adobe-Audition-CC-Audio-Production-Course-Basics-to-Expert-Course-Site.jpg",
-        price: 450,
+        price: 1000,
         email: "marcypotts@fossiel.com",
         phone: 18174002431
     }

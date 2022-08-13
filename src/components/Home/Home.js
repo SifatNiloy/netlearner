@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div>
             <div className='second-section'>
-                <h1>Access 20+ </h1>
+                <h1>Access 200+ </h1>
                 <h1> Online Course From Top Instructor.</h1>
                 <h3>Meet instructors, who'll share their experience.</h3>
             </div>
