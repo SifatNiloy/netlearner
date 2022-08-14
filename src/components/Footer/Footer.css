@@ -1,10 +1,10 @@
-.footer-points {
+.points {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
-p {
-    margin: 0
+.footer-points p {
+    margin: 0px;
 }
 
 footer {
