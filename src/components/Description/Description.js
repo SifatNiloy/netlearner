@@ -1,18 +1,12 @@
 import React from 'react';
-// import { useEffect } from 'react';
-// import { useState } from 'react';
+
 import './Description.css'
 
 import { useParams } from 'react-router-dom';
 
 const Description = (props) => {
     const { serviceId } = useParams();
-    // const [service, setService] = useState({});
-    // useEffect(() => {
-    //     fetch(`./netlearner.json`)
-    //         .then(res => res.json())
-    //         .then(data => setService(data))
-    // }, [])
+
 
     return (
         <div className='about-course'>

@@ -5,10 +5,10 @@ import { Route, Routes } from 'react-router-dom';
 import About from './components/About/About';
 import Home from './components/Home/Home';
 import ServiceCardGroup from './components/ServiceCardGroup/ServiceCardGroup';
-import Description from './Description/Description';
 import Footer from './components/Footer/Footer';
 import NotFound from './components/NotFound/NotFound';
 import Instructor from './components/Instructor/Instructor';
+import Description from './components/Description/Description';
 
 function App() {
   return (

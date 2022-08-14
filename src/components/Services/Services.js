@@ -1,8 +1,8 @@
 import { Button } from 'react-bootstrap';
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import Description from '../../Description/Description';
-import { Link, useNavigate, useParams } from 'react-router-dom';
+
+import { useNavigate } from 'react-router-dom';
 import './Services.css'
 
 const Services = (props) => {
@@ -12,7 +12,7 @@ const Services = (props) => {
         navigate(path);
     }
 
-    const { name, price, image, description, id } = props.service;
+    const { name, price, image, id } = props.service;
     return (
         <Card className='card'>
             <Card.Img variant="top" src={image} />
@@ -22,10 +22,10 @@ const Services = (props) => {
                 <Card.Text>
                     <div className='custom-link'>
                         <Button onClick={showDetail} variant="primary">Show Detail</Button>
-                        {/* <Link to={'/services/' + id}>Show Details</Link> */}
+
                     </div>
                 </Card.Text>
-                {/* <Description description={description}></Description> */}
+
             </Card.Body>
 
         </Card >
