@@ -10,7 +10,8 @@ const CardGroupFirst = () => {
         image: "https://www.howtofree.org/wp-content/uploads/2020/11/maxresdefault-1-1024x576.jpg",
         price: 450,
         email: "marcypotts@fossiel.com",
-        phone: 18174002431
+        phone: 18174002431,
+        description: "Learn world's best photo editing software. Make yourself skilled in today."
     },
     {
         id: 2,
@@ -18,7 +19,8 @@ const CardGroupFirst = () => {
         image: "https://i.ytimg.com/vi/MqwlW76sFCM/maxresdefault.jpg",
         price: 650,
         email: "marcypotts@fossiel.com",
-        phone: 18174002431
+        phone: 18174002431,
+        description: "Premiere pro is one of the most used video editing software. Many editors uses premiere pro in their everyday use. "
     },
     {
         id: 3,
@@ -26,7 +28,8 @@ const CardGroupFirst = () => {
         image: "https://www.coursesforfree.net/wp-content/uploads/2019/03/927360_bab9_4.jpg",
         price: 1500,
         email: "marcypotts@fossiel.com",
-        phone: 18174002431
+        phone: 18174002431,
+        description: "One of the best motion graphics software you'll find. Start learning today."
     },
     {
         id: 4,
@@ -34,7 +37,8 @@ const CardGroupFirst = () => {
         image: "https://freecoursesites.com/wp-content/uploads/2019/12/Adobe-Audition-CC-Audio-Production-Course-Basics-to-Expert-Course-Site.jpg",
         price: 1000,
         email: "marcypotts@fossiel.com",
-        phone: 18174002431
+        phone: 18174002431,
+        description: "Learn sound editing, mixing. Remove noise and grains from video sound. Also works with premiere pro. "
     }
 
     ]

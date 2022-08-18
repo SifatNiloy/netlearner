@@ -3,7 +3,7 @@ import { Card } from 'react-bootstrap';
 import './Cards.css'
 
 const Cards = (props) => {
-    const { name, price, image } = props.course;
+    const { name, price, image, description } = props.course;
     return (
         <Card className='card'>
             <Card.Img variant="top" src={image} />
@@ -11,8 +11,7 @@ const Cards = (props) => {
                 <Card.Title>{name}</Card.Title>
                 <p>price: {price} tk</p>
                 <Card.Text>
-                    This is a wider card with supporting text below as a natural lead-in
-                    to additional content. This content is a little bit longer.
+                    {description}
                 </Card.Text>
             </Card.Body>
 
